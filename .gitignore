@@ -1,5 +1,5 @@
 node_modules
-.eslitrc.js
+.eslintrc.js
 input.css
 package.json
 package-lock.json
