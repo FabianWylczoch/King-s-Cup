@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link href="./css/style.css" rel="stylesheet" />
+    <title>King's Cup</title>
+  </head>
+  <body class="bg-primary">
+    <header>
+      <nav class="relative-container m-3 rounded-md bg-secondary py-2 pl-2">
+        <div class="text-white">
+          <div>NAVBAR</div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <span class="flex h-0.5 w-full rounded-full bg-cta2 opacity-30"></span>
+
+      <div class="relative-container m-3 rounded-xl bg-secondary p-10 text-center font-bold">
+        <h1 class="text-3xl text-tertiarty" id="output">King's Cup</h1>
+      </div>
+
+      <div class="relative-container m-3 rounded-xl bg-secondary p-10 text-center font-bold">
+        <p id="text"></p>
+      </div>
+
+      <div id="tabletop">
+        <div class="flex relative-container m-3 justify-between" id="row">
+          <img class="card" src="https://deckofcardsapi.com/static/img/back.png" alt="Picture of card">
+          <img class="card" src="https://deckofcardsapi.com/static/img/back.png" alt="Picture of card">
+        </div>
+      </div>
+
+      <button class="flex relative-container rounded-md bg-red-600 hover:bg-white p-3 mx-auto" id="button">Restart Game!</button>
+
+
+    </main>
+    <script src="./js/cup.js"></script>
+  </body>
+</html>
